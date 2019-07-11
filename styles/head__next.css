@@ -1,0 +1,26 @@
+.head__next {
+    display: flex;
+    margin-top: 150px;
+}
+
+.hero {
+    display: flex;
+    text-align: left;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 72px;
+}
+
+.hero1 {
+    margin-top: 20px;
+    line-height: 32px;
+    font-size: 21px;
+    font-weight: 300
+}
+
+.phone__location {
+    display: flex;
+    margin-top: 0px;
+    margin-left: 123px;
+}
