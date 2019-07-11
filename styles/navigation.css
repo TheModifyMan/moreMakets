@@ -1,0 +1,35 @@
+.Navigation {
+    display: flex;
+    margin: 0;
+}
+
+.Navigation__links {
+    padding-top: 16px;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;   
+}
+
+.links {
+    margin-left: 45px;
+}
+
+.links :first-child{
+    margin: 0;
+}
+
+.Navigation a {
+    text-decoration: none;
+    color: #000;
+}
+
+.Logo__place {
+    position: absolute;
+    padding-top: 16px;
+}
+
+.upper {
+    height: 50px;
+}
