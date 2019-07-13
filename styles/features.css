@@ -1,0 +1,42 @@
+.features {
+    margin-top: 160px;
+}
+
+.headliner__features {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    display: flex;
+    justify-content: center
+}
+
+.headliner__head {
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.headliner__overhead {
+    font-size: 21px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.features__description {
+    margin-top: 80px;
+}
+
+.img__description {
+    display: block;
+   align-items: center;
+}
+
+.description {
+    margin-left: 170px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}

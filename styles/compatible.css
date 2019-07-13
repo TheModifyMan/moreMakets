@@ -1,0 +1,11 @@
+.compatible {
+    margin-top: 130px;
+}
+
+.site__buttons {
+    justify-content: left;
+    display: flex;
+    flex-direction: row;
+    margin-top: 19.33px;
+    margin-left: 0;
+}
