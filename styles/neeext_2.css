@@ -1,0 +1,43 @@
+.com {
+    background-color: black;
+    margin-top: 200px;  
+}
+
+.neeext {
+    padding-top: 200px;
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    align-items: left;
+    opacity: 0.8;
+}
+
+.neeext_2 {
+    color: white;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 46px;
+    padding-top: 10px;
+}
+
+.neeext_3 {
+    color: white;
+    opacity: 0.8;
+    font-size: 18px;
+    font-weight: normal;
+    padding-top: 10px;
+}
+
+.next__button {
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 263px;
+    height: 42px;
+    padding: 0 33px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #540CFA;
+    border-radius: 4px;
+    border: none;
+}

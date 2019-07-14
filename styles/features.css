@@ -59,3 +59,7 @@
     text-decoration: none;
     color:#540CFA;
 }
+
+.link__description :hover {
+    opacity: 0.5;
+}

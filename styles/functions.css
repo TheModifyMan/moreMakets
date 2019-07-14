@@ -1,0 +1,44 @@
+.first__line {
+    margin-top: 220px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 46px;
+}
+
+.second__line {
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.view_of_site {
+    margin-top: 140px;
+    margin-left: 80px;
+}
+
+.link__action {
+    margin-right: 17px;
+}
+
+.action {
+    margin-top: 40px;
+    height: 27px;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05), 0px 1px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+
+.action a {
+    color: black;
+    text-decoration: none;
+}
+
+.action :hover {
+    opacity: 0.5;
+}

@@ -14,9 +14,14 @@
         <link rel="stylesheet" href="/styles/navigation.css">
         <link rel="stylesheet" href="/styles/menu.css">
         <link rel="stylesheet" href="/styles/button.css">
-        <link rel="stylesheet" href="styles/head__next.css">
+        <link rel="stylesheet" href="/styles/head__next.css">
         <link rel="stylesheet" href="/styles/compatible.css">
         <link rel="stylesheet" href="/styles/features.css">
+        <link rel="stylesheet" href="/styles/functions.css">
+        <link rel="stylesheet" href="/styles/background.css">
+        <link rel="stylesheet" href="/assets/slider.css">
+        <link rel="stylesheet" href="/styles/neeext_2.css">
+        <link rel="stylesheet" href="/styles/com.css">
     </head>
 <body>
 <section class="head">
@@ -58,7 +63,7 @@
     </div>
     <div>
         <form class="form__email">
-            <p><input placeholder class="Your e-mail" name="user">
+            <p><input class="form__button" placeholder="your e-mail@.com" name="user">
             <input class="button__form" type="submit" value="Отправить" 
              formaction="handler.php" formmethod="post"></p>
         </form>
@@ -84,8 +89,8 @@
 </section>
 <section class="features">
 <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-8">
+    <div class="row justify-content-center">
+        <div class="col-8">
     <div>
         <h1 class="headliner__features">Features</h1>
     </div>
@@ -98,8 +103,8 @@
             delivered to you in the perfect moment.
         </h3>
     </div>
-            </div>
         </div>
+    </div>
 </div>
     <div class="row justify-content-center">
     <div class="col-3">
@@ -134,43 +139,125 @@
     </div>
     </div>
 </section>
-<section>
-    <div class="container">
-        <div class="row">
-            <div class="col-12"></div>   
-    <img src="/img/Rectangle 7 Copy 2.png">
+<section>   
+<div class="slider">
+    <div class="slider__wrapper">
+        <div class="slider__item">
+            <div>
+                <img src="/img/Rectangle 7 Copy 3.png">
+            </div>
+        </div>
+        <div class="slider__item">
+            <div>
+                <img src="/img/Rectangle 7 Copy 4.png">
+            </div>
+        </div>
+        <div class="slider__item">
+            <div>
+                <img src="/img/Rectangle 7 Copy.png">
+            </div>
+        </div>
+        <div class="slider__item">
+            <div>
+                <img src="/" alt="misunderstanding">
+            </div>
+        </div>
+        <div class="slider__item">
+            <div>
+                <img src="/img/Rectangle 7 Copy 2.png">
+            </div>
+        </div>
+    </div>
+    <a class="slider__control slider__control_left" href="#" role="button"></a>
+    <a class="slider__control slider__control_right slider__control_show" href="#" role="button"></a>
+<script src="/assets/slider.js"></script>
+</div>
 </section>
 <section>
     <div class="container">
         <div class="row">
-    <div class="col-5">
+    <div class="col-6">
     <div>
-        <h1>Easy-to-use interfaces on every platform</h1>
+        <h1 class="first__line">Easy-to-use interfaces on every platform</h1>
     </div>
     <div>
-        <h3>Since most of our features work in a completely automated way,
-        you will mainly use our apps to discover new TV shows
-        recommended for you and discuss the most interesting 
-        episodes with like-minded people.
+        <h3 class="second__line">Since most of our features work in a completely automated way,
+            you will mainly use our apps to discover new TV shows
+            recommended for you and discuss the most interesting 
+            episodes with like-minded people.
         </h3>
     </div>
+    <div class="actions">
+        <div>
+            <ul>
+                <li class="action"><a href="/" onclick="return false"><img class="link__action" src="/img/dashboard.png">Customized Dashboard</a></li>
+                <li class="action"><a href="/" onclick="return false"><img class="link__action" src="/img/Oval.png">Automatic Day & Night Modes</a></li>
+                <li class="action"><a href="/" onclick="return false"><img class="link__action" src="/img/Shape-1.png">Integrated Chat Platform</a></li>
+            </ul>
+        </div>
     </div>
-    <div class="col-5">
+    </div>
+    <div class="col-6">
     <div>
-        <img src="/img/asdasdsadsadsad.png">
+        <p class="view_of_site"><img src="/img/asdasdsadsadsad.png"><p>
     </div>
     </div>
-    <div>
-        <img src="/img/Rectangle 10.png">
+        </div>
+</section>
+<section class="com">
+    <div class="container">
+        <div class="row">
+    <div class="col-6">
+        <div>
+            <h3 class="neeext">Community</h3>
+        </div>
+        <div>
+            <h1 class="neeext_2">We belive in the power of community</h1>
+        </div>
+        <div>
+            <h3 class="neeext_3">
+                Our goal is to create a product and service that you're  satisfied
+                with and use it every day. This is why we're constantly working on our services
+                to make it better every day and really listen to what our users hs to say.
+            </h3>
+        </div>
+        <div>
+            <button class="next__button">Read more testimonials</button>
+        </div>
     </div>
-    <div>
-        <img src="/img/dashboard.png">
-    </div>
-    <div>
-        <img src="/img/Oval.png">
-    </div>
-    <div>
-        <img src="/img/Shape-1.png">
+    <div class="col-6">
+        <div style="background: blanchedalmond">
+            twitter
+        </div>
+</section>
+<section class="started">
+    <div class="container">
+        <div class="row-justify-content-center">
+    <div class="col-12">
+        <div>
+        <h3 class="com1">
+            Get Started
+        </h3>
+        </div>
+        <div>
+            <h1 class="com2">
+                Start tracking your TV shows for free
+            </h1>
+        </div>
+        <div>
+            <h3 class="com3">
+                In order start tracking your TV shows, all you have to do is enter your e-mail addres.
+                Everything else will be taken care of by us. All you have to do is sit back, relax and enjoy
+                your TV shows.
+            </h3>
+        </div>
+        <div>
+            <form class="form__email">
+                    <p><input class="form__button" placeholder="your e-mail@.com" name="user">
+                    <input class="button__form" type="submit" value="Отправить" 
+                    formaction="handler.php" formmethod="post"></p>
+            </form>
+        </div>
     </div>
 </section>
 </body>
