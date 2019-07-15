@@ -3,19 +3,47 @@
 }
 
 .com1 {
-    text-align: center;
-    font-weight: 300;
     font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    display: flex;
+    justify-content: center
 }
 
 .com2 {
-    text-align: center;
-    font-weight: 900;
     font-size: 60px;
+    font-style: normal;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 10px;
 }
 
 .com3 {
-    text-align: center;
     font-size: 21px;
-    opacity: 0.8;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.form__email_last {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.com__network {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 285px;
+    margin-bottom: 73px;
+}
+
+.com__buttons {
+    margin-top: 120px;
+    display: flex;
+    filter: grayscale(100%);
+}
+
+.com__buttons :first-child{
+    margin-left: 20px;
 }

@@ -2,10 +2,23 @@
     margin-top: 130px;
 }
 
-.site__buttons {
+.line__buttons {
     justify-content: left;
     display: flex;
+    align-items: left;
     flex-direction: row;
-    margin-top: 19.33px;
-    margin-left: 0;
+    filter: grayscale(100%);
+;
+}
+
+.site__buttons {
+    margin-top: 22px;
+    display: block;
+    align-items: left;
+    justify-content: left
+
+}
+
+.site__buttons :first-child {
+    margin: 0px;
 }

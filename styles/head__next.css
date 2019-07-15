@@ -1,10 +1,12 @@
 .head__next {
-    display: flex;
-    margin-top: 65px;
+    background-image: url(/img/Rectangle\ 5\ Copy.png), url(/img/Rectangle\ 5.png);
+    background-repeat: no-repeat;
+    background-position: 1027px 0;
 }
 
+
 .hero {
-    padding-top: 150px;
+    margin-top: 150px;
     display: flex;
     text-align: left;
     font-size: 60px;
@@ -21,7 +23,7 @@
 }
 
 .phone__location {
+    margin-top: 85px;
     display: flex;
-    margin-top: 0px;
     margin-left: 123px;
 }
